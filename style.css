@@ -1,0 +1,139 @@
+/* General Styles */
+/* Set the body background to black and text color to white */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background for the entire website */
+    color: #fff; /* White text color for contrast */
+  }
+  .image-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;           /* Make container height equal to viewport height */
+  }
+  
+  .image-container img {
+    max-width: 100%;  /* Optional: Limit the image size to fit within the container */
+    height: auto;     /* Maintain the aspect ratio */
+  }
+  
+  /* Header Styling */
+  /* Set the header background to a darker shade of black */
+  header {
+    text-align: center;
+    padding: 20px;
+    background: #111; /* Darker shade of black for header */
+  }
+  
+  /* Header text color */
+  header h1 {
+    color: #f39c12; /* Pizza orange color for the header text */
+  }
+  
+  /* Navigation Links */
+  nav a {
+    color: #fff; /* White color for the navigation links */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for navigation links */
+  nav a:hover {
+    color: #f39c12; /* Change to pizza orange on hover */
+  }
+  
+  /* Container Styling */
+  /* Set a dark background for sections and content areas */
+  .container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: #222; /* Dark background for content containers */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5); /* Light orange shadow for effect */
+  }
+  
+  /* Form and Input Styling */
+  /* Input fields and buttons have dark backgrounds with white text */
+  input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Input fields have dark background and white text */
+  input {
+    background: #333; /* Darker shade of black for input fields */
+    color: #fff; /* White text in the input fields */
+  }
+  
+  /* Button Styling */
+  /* Orange color for buttons */
+  button {
+    background: #f39c12; /* Pizza orange button background */
+    color: #fff; /* White text on buttons */
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for buttons */
+  button:hover {
+    background: #e67e22; /* Slightly darker orange on hover */
+  }
+  
+  /* Pizza Varieties Section */
+  .pizza-varieties {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual Pizza Cards */
+  .pizza-card {
+    width: 200px;
+    text-align: center;
+    background: #333; /* Dark background for pizza cards */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5); /* Light orange shadow */
+  }
+  
+  .pizza-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Footer Styling */
+  /* Dark footer background with centered text */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #111; /* Darker black footer background */
+  }
+{/* Order Confirmation Styles */
+#orderConfirmation {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.5);
+  }
+  #placeOrderButton {
+    background-color: #f39c12; /* Orange color */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  #placeOrderButton:hover {
+    background-color: #e67e22;
+  }
+  
+    }  
